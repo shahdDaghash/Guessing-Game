@@ -1,14 +1,14 @@
-#Android Password Guessing Game
+# Android Password Guessing Game
 This project is an Android app for a two-player password guessing game. The game has two modes: user1 mode, where the first player sets a password, and user2 mode, where the second player attempts to guess the password.
 
-##Setup and Usage
+## Setup and Usage
 To use this app, simply download and install the APK file on an Android device. Once the app is launched, the user is presented with the user1 mode, where they can set the password.
 
 In user1 mode, the user can set a password of up to 8 characters in length by typing the password in the text field and then clicking the "Save Password" button. The user can also use the on-screen keyboard to enter the password. Once the password is set, the app will switch to user2 mode, where the second player can start guessing the password.
 
 In user2 mode, the user is presented with a keyboard and a text field. The user can use the keyboard to enter letters and try to guess the password. If the user enters an incorrect letter, the app will prevent them from adding a new letter until they delete the wrong letter. The user has three attempts to guess the password correctly. If the user guesses the password correctly, the app displays a success message and allows the user to restart the game by clicking the "Restart" button.
 
-Functionality
+## Functionality
 The app is implemented using Java and the Android SDK. It includes the following features:
 
 Two-player password guessing game
